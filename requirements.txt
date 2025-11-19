@@ -1,7 +1,4 @@
 google-adk
 python-dotenv
-trafilatura>=1.6.0
-beautifulsoup4
-lxml
 requests
-orjson
+beautifulsoup4
