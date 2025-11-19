@@ -10,17 +10,17 @@ def start_date_iso(self) -> str:
 @dataclass
 class Config:
     # Core
-    org_name: str = os.getenv( "AI-Curation")
-    worker_model: str = os.getenv("WORKER_MODEL")
+    org_name: str = "AI-Curation"
+    worker_model: str = "gemini-3-pro"
 
     # Google Search (used by google-adk's google_search tool)
     google_api_key: str = os.getenv("GOOGLE_API_KEY")
 
     # Gathering controls
-    days_back: int = int(os.getenv("DAYS_BACK", "14"))
-    max_results: int = int(os.getenv("MAX_RESULTS", "5"))
-    language: str = os.getenv("LANGUAGE", "en")
-    country_focus: str = os.getenv("COUNTRY_FOCUS", "US")
+    days_back: int = 14
+    max_results: int = 5
+    language: str = "en"
+    country_focus: str = "COUNTRY_FOCUS"
 
     # Content targeting
     # Set these via env for your domain; defaults are sane placeholders
