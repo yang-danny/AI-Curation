@@ -1,0 +1,86 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.venv.bak/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# Type checking / linters
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.pyre/
+.pyrightcache/
+
+# Logs
+logs/
+*.log
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+.history/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Caches / temp
+.cache/
+.local/
+tmp/
+temp/
+*.tmp
+*~
+
+# Project outputs
+news_output.json
+news_output.jsonl
+outputs/
+artifacts/
+reports/
+
+# Credentials / secrets (common names)
+secrets/
+*credentials*.json
+*service_account*.json
+
+# SQLite or local DB files (if added later)
+*.db
+*.sqlite
+*.sqlite3
+
+# Lock files (optional if you don’t use them)
+poetry.lock
+Pipfile.lock

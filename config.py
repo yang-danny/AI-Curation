@@ -11,10 +11,10 @@ def start_date_iso(self) -> str:
 class Config:
     # Core
     org_name: str = os.getenv( "AI-Curation")
-    worker_model: str = os.getenv("WORKER_MODEL", "gemini-2.5-pro")
+    worker_model: str = os.getenv("WORKER_MODEL")
 
     # Google Search (used by google-adk's google_search tool)
-    google_api_key: str = os.getenv("GOOGLE_API_KEY", "")
+    google_api_key: str = os.getenv("GOOGLE_API_KEY")
 
     # Gathering controls
     days_back: int = int(os.getenv("DAYS_BACK", "14"))
