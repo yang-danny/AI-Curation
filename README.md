@@ -78,10 +78,6 @@ The system uses a multi-agent architecture orchestrated by a Supervisor Agent th
 
 ---
 
-## 🏗️ Architecture
-
-![AI-Curation Architecture](images/architecture.png)
-
 ### System Components
 
 
@@ -143,6 +139,7 @@ python3 main.py
 ```
 
 ## 📁 Project Structure
+```bash 
 AI-Curation/
 │
 ├── agents/                          # AI Agent modules
@@ -189,29 +186,45 @@ AI-Curation/
 ├── .gitignore                       # Git ignore rules
 ├── LICENSE                          # MIT License
 └── README.md                        # This file
-
+```
 ## 🔄 Workflow Steps
 ![AI-Curation Architecture](images/architecture.png)
-The Supervisor Agent executes the following steps:
 
-1️⃣ News Gathering
-Searches for latest tech news
-Discovers upcoming events
-Validates and filters results
-Retry: Up to 3 attempts on failure
-2️⃣ Social Media Monitoring
-Monitors configured social accounts
-Extracts recent posts
-Analyzes engagement and trends
-Retry: Up to 3 attempts on failure
-3️⃣ Content Generation
-Creates news summaries
-Writes comprehensive blog posts
-Generates social media content
-Maintains brand voice consistency
-Retry: Up to 3 attempts on failure
-4️⃣ Final Output
-Compiles all results
-Saves publication-ready content
-Generates workflow report
-Creates execution logs
+### The Supervisor Agent executes the following steps:
+
+#### 1️⃣ News Gathering
+--Searches for latest tech news
+--Discovers upcoming events
+--Validates and filters results
+--Retry: Up to 3 attempts on failure
+
+#### 2️⃣ Social Media Monitoring
+--Monitors configured social accounts
+--Extracts recent posts
+--Analyzes engagement and trends
+--Retry: Up to 3 attempts on failure
+
+#### 3️⃣ Content Generation
+--Creates news summaries
+--Writes comprehensive blog posts
+--Generates social media content
+--Maintains brand voice consistency
+--Retry: Up to 3 attempts on failure
+
+#### 4️⃣ Final Output
+--Compiles all results
+--Saves publication-ready content
+--Generates workflow report
+--Creates execution logs
+
+## 📜 License
+MIT License
+
+Copyright (c) 2024 AI-Curation Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
