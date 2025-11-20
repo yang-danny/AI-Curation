@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![AI-Curation Banner](docs/images/banner.png)
 
 **Intelligent Content Curation and Publication Platform**
 
