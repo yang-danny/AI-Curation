@@ -12,7 +12,7 @@ Automate your content workflow with AI-powered agents that gather, analyze, and 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Google ADK](https://img.shields.io/badge/Google-ADK-yellow.svg)](https://github.com/google/adk)
 
-[Features](#-features) • [Installation](#-installation) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Contributing](#-contributing)
+[Features](#-features) • [Installation](#-installation) • [Project Structure](#-project-structure) • [Workflow Steps](#-workflow-steps) • 
 
 </div>
 
@@ -77,8 +77,6 @@ The system uses a multi-agent architecture orchestrated by a Supervisor Agent th
 - **Platform Selection**: Choose which social media platforms to monitor
 
 ---
-
-### System Components
 
 
 ### Agent Responsibilities
@@ -193,29 +191,29 @@ AI-Curation/
 ### The Supervisor Agent executes the following steps:
 
 #### 1️⃣ News Gathering
---Searches for latest tech news
---Discovers upcoming events
---Validates and filters results
---Retry: Up to 3 attempts on failure
+- **Searches for latest tech news** 
+- **Discovers upcoming events** 
+- **Validates and filters results** 
+- **Retry: Up to 3 attempts on failure** 
 
 #### 2️⃣ Social Media Monitoring
---Monitors configured social accounts
---Extracts recent posts
---Analyzes engagement and trends
---Retry: Up to 3 attempts on failure
+- **Monitors configured social accounts** 
+- **Extracts recent posts** 
+- **Analyzes engagement and trends** 
+- **Retry: Up to 3 attempts on failure** 
 
 #### 3️⃣ Content Generation
---Creates news summaries
---Writes comprehensive blog posts
---Generates social media content
---Maintains brand voice consistency
---Retry: Up to 3 attempts on failure
+- **Creates news summaries** 
+- **Writes comprehensive blog posts** 
+- **Generates social media content** 
+- **Maintains brand voice consistency** 
+- **Retry: Up to 3 attempts on failure** 
 
 #### 4️⃣ Final Output
---Compiles all results
---Saves publication-ready content
---Generates workflow report
---Creates execution logs
+- **Compiles all results** 
+- **Saves publication-ready content** 
+- **Generates workflow report** 
+- **Creates execution logs** 
 
 ## 📜 License
 MIT License
